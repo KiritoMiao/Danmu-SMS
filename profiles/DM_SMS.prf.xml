@@ -22,7 +22,7 @@
 		<pri>100</pri>
 		<Action sr="act0" ve="7">
 			<code>116</code>
-			<Str sr="arg0" ve="3">dm.kirito.moe:3000</Str>
+			<Str sr="arg0" ve="3">【弹幕服务器地址】:【弹幕服务器端口】</Str>
 			<Str sr="arg1" ve="3">post</Str>
 			<Str sr="arg2" ve="3">text=%SMSRF:%SMSRB
 textStyle=normal bold 3em 微软雅黑</Str>
