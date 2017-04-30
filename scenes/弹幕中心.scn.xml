@@ -1,0 +1,347 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+	<dmetric>1440.0,2392.0</dmetric>
+	<Scene sr="scene弹幕中心">
+		<cdate>1493476187469</cdate>
+		<edate>1493482233005</edate>
+		<heightLand>-1</heightLand>
+		<heightPort>2392</heightPort>
+		<nme>弹幕中心</nme>
+		<widthLand>-1</widthLand>
+		<widthPort>1440</widthPort>
+		<ImageElement sr="elements0" ve="2">
+			<flags>6</flags>
+			<geom>0,0,1440,2392,0,0,1439,2057</geom>
+			<Str sr="arg0" ve="3">图像1</Str>
+			<Img sr="arg1" ve="2"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3">#FF0099CC</Str>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#FF000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</ImageElement>
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>11</clickTask>
+			<flags>4</flags>
+			<geom>107,2008,557,228,482,679,475,700</geom>
+			<Str sr="arg0" ve="3">退出弹幕中心</Str>
+			<Str sr="arg1" ve="3">退出弹幕中心</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#66ccff</Str>
+			<Str sr="arg5" ve="3">退出弹幕中心</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements10" ve="3">
+			<flags>4</flags>
+			<geom>1007,383,325,150,106,378,550,200</geom>
+			<Str sr="arg0" ve="3">文字3</Str>
+			<Str sr="arg1" ve="3">状态：%HTTPR</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0081</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<EditTextElement sr="elements11" ve="3">
+			<flags>4</flags>
+			<geom>106,603,1175,200,1131,679,308,675</geom>
+			<valueselectedTask>31</valueselectedTask>
+			<Str sr="arg0" ve="3">可编辑文字1</Str>
+			<Str sr="arg1" ve="3">当然是选择原谅她啦</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF00FF25</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="500"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">#61000000</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
+		</EditTextElement>
+		<ButtonElement sr="elements12" ve="3">
+			<clickTask>32</clickTask>
+			<flags>4</flags>
+			<geom>131,828,1125,175,506,1003,475,700</geom>
+			<Str sr="arg0" ve="3">按钮8</Str>
+			<Str sr="arg1" ve="3">发射</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF0AFF00</Str>
+			<Str sr="arg5" ve="3">发射</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements13" ve="3">
+			<clickTask>33</clickTask>
+			<flags>4</flags>
+			<geom>782,2008,525,233,631,378,650,150</geom>
+			<Str sr="arg0" ve="3">按钮9</Str>
+			<Str sr="arg1" ve="3">前往管理中心</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3">前往管理中心</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements14" ve="3">
+			<flags>4</flags>
+			<geom>107,383,825,150,0,378,656,150</geom>
+			<Str sr="arg0" ve="3">文字4</Str>
+			<Str sr="arg1" ve="3">发件人：%SMSRF</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements2" ve="3">
+			<clickTask>12</clickTask>
+			<flags>4</flags>
+			<geom>107,1783,550,225,456,1827,550,225</geom>
+			<Str sr="arg0" ve="3">禁用Tasker（危险）</Str>
+			<Str sr="arg1" ve="3">禁用Tasker（危险）</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#66ccff</Str>
+			<Str sr="arg5" ve="3">禁用Tasker（危险）</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements3" ve="3">
+			<flags>4</flags>
+			<geom>782,1783,525,225,1006,1827,431,228</geom>
+			<Str sr="arg0" ve="3">急刹车</Str>
+			<Str sr="arg1" ve="3">急刹车</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#66ccff</Str>
+			<Str sr="arg5" ve="3">急刹车</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements4" ve="3">
+			<flags>4</flags>
+			<geom>106,78,1225,250,106,78,1225,325</geom>
+			<Str sr="arg0" ve="3">文字1</Str>
+			<Str sr="arg1" ve="3">欢迎使用 Function Club 短信-弹幕转发服务</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFF0000</Str>
+			<Str sr="arg5" ve="3">欢迎使用 Function Club 短信-弹幕转发服务</Str>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+		<ButtonElement sr="elements5" ve="3">
+			<clickTask>15</clickTask>
+			<flags>4</flags>
+			<geom>107,1558,551,231,256,853,950,325</geom>
+			<Str sr="arg0" ve="3">按钮4</Str>
+			<Str sr="arg1" ve="3">弹幕礼仪提示</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">弹幕礼仪提示</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements6" ve="3">
+			<clickTask>16</clickTask>
+			<flags>4</flags>
+			<geom>106,1328,550,225,256,853,950,325</geom>
+			<Str sr="arg0" ve="3">按钮41</Str>
+			<Str sr="arg1" ve="3">弹幕发送提示</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF000000</Str>
+			<Str sr="arg5" ve="3">弹幕礼仪提示</Str>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements7" ve="3">
+			<clickTask>25</clickTask>
+			<flags>4</flags>
+			<geom>782,1558,525,225,281,553,433,675</geom>
+			<Str sr="arg0" ve="3">按钮61</Str>
+			<Str sr="arg1" ve="3">弹幕转发引擎开启</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF00FFEE</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<ButtonElement sr="elements8" ve="3">
+			<clickTask>24</clickTask>
+			<flags>4</flags>
+			<geom>781,1328,525,225,281,553,433,675</geom>
+			<Str sr="arg0" ve="3">按钮611</Str>
+			<Str sr="arg1" ve="3">弹幕转发引擎关闭</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FF00FFEE</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
+		<TextElement sr="elements9" ve="3">
+			<flags>4</flags>
+			<geom>106,1028,1206,275,106,1028,1206,275</geom>
+			<Str sr="arg0" ve="3">文字2</Str>
+			<Str sr="arg1" ve="3">%SMSRB</Str>
+			<Int sr="arg2" val="16"/>
+			<Int sr="arg3" val="100"/>
+			<Str sr="arg4" ve="3">#FFFFB000</Str>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="0"/>
+			<Int sr="arg8" val="0"/>
+		</TextElement>
+	</Scene>
+	<Task sr="task11">
+		<cdate>1493476677819</cdate>
+		<edate>1493476677819</edate>
+		<id>11</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<Str sr="arg0" ve="3">弹幕中心</Str>
+		</Action>
+	</Task>
+	<Task sr="task12">
+		<cdate>1493476911695</cdate>
+		<edate>1493476911695</edate>
+		<id>12</id>
+		<Action sr="act0" ve="7">
+			<code>139</code>
+		</Action>
+	</Task>
+	<Task sr="task15">
+		<cdate>1493477403291</cdate>
+		<edate>1493477403291</edate>
+		<id>15</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>116</code>
+			<Str sr="arg0" ve="3">【弹幕服务器地址】:【弹幕服务器端口】</Str>
+			<Str sr="arg1" ve="3">post</Str>
+			<Str sr="arg2" ve="3">text=请注意弹幕礼仪，违者永久封禁</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">SMS</Str>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">application/x-www-form-urlencoded</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task16">
+		<cdate>1493477403291</cdate>
+		<edate>1493477403291</edate>
+		<id>16</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>116</code>
+			<Str sr="arg0" ve="3">【弹幕服务器地址】:【弹幕服务器端口】</Str>
+			<Str sr="arg1" ve="3">post</Str>
+			<Str sr="arg2" ve="3">text=发送短信至xxx可发送弹幕</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">SMS</Str>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">application/x-www-form-urlencoded</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task24">
+		<cdate>1493479625304</cdate>
+		<edate>1493479625304</edate>
+		<id>24</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DM-SMS</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task25">
+		<cdate>1493479711909</cdate>
+		<edate>1493479711909</edate>
+		<id>25</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DM-SMS</Str>
+			<Int sr="arg1" val="1"/>
+		</Action>
+	</Task>
+	<Task sr="task31">
+		<cdate>1493480863745</cdate>
+		<edate>1493480863745</edate>
+		<id>31</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>410</code>
+			<Str sr="arg0" ve="3">danmu_send.json</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task32">
+		<cdate>1493481301189</cdate>
+		<edate>1493481301189</edate>
+		<id>32</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>417</code>
+			<Str sr="arg0" ve="3">danmu_send.json</Str>
+			<Str sr="arg1" ve="3">%text_temp</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>116</code>
+			<Str sr="arg0" ve="3">【弹幕服务器地址】:【弹幕服务器端口】</Str>
+			<Str sr="arg1" ve="3">post</Str>
+			<Str sr="arg2" ve="3">text=%text_temp</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">application/x-www-form-urlencoded</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task33">
+		<cdate>1493481772733</cdate>
+		<edate>1493481772733</edate>
+		<id>33</id>
+		<Action sr="act0" ve="7">
+			<code>104</code>
+			<Str sr="arg0" ve="3">http://【弹幕服务器地址】/manage</Str>
+		</Action>
+	</Task>
+</TaskerData>
