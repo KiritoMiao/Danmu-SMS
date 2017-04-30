@@ -1,8 +1,8 @@
 <TaskerData sr="" dvi="1" tv="4.9u3m">
-	<dmetric>1440.0,2392.0</dmetric>
+	<dmetric>1440.0,2560.0</dmetric>
 	<Scene sr="scene弹幕中心">
 		<cdate>1493476187469</cdate>
-		<edate>1493482233005</edate>
+		<edate>1493557978069</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>2392</heightPort>
 		<nme>弹幕中心</nme>
@@ -29,7 +29,7 @@
 			</RectElement>
 		</ImageElement>
 		<ButtonElement sr="elements1" ve="3">
-			<clickTask>11</clickTask>
+			<clickTask>5</clickTask>
 			<flags>4</flags>
 			<geom>107,2008,557,228,482,679,475,700</geom>
 			<Str sr="arg0" ve="3">退出弹幕中心</Str>
@@ -57,7 +57,7 @@
 		<EditTextElement sr="elements11" ve="3">
 			<flags>4</flags>
 			<geom>106,603,1175,200,1131,679,308,675</geom>
-			<valueselectedTask>31</valueselectedTask>
+			<valueselectedTask>10</valueselectedTask>
 			<Str sr="arg0" ve="3">可编辑文字1</Str>
 			<Str sr="arg1" ve="3">当然是选择原谅她啦</Str>
 			<Int sr="arg2" val="16"/>
@@ -81,7 +81,7 @@
 			</RectElement>
 		</EditTextElement>
 		<ButtonElement sr="elements12" ve="3">
-			<clickTask>32</clickTask>
+			<clickTask>7</clickTask>
 			<flags>4</flags>
 			<geom>131,828,1125,175,506,1003,475,700</geom>
 			<Str sr="arg0" ve="3">按钮8</Str>
@@ -94,7 +94,7 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements13" ve="3">
-			<clickTask>33</clickTask>
+			<clickTask>6</clickTask>
 			<flags>4</flags>
 			<geom>782,2008,525,233,631,378,650,150</geom>
 			<Str sr="arg0" ve="3">按钮9</Str>
@@ -120,7 +120,7 @@
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<ButtonElement sr="elements2" ve="3">
-			<clickTask>12</clickTask>
+			<clickTask>11</clickTask>
 			<flags>4</flags>
 			<geom>107,1783,550,225,456,1827,550,225</geom>
 			<Str sr="arg0" ve="3">禁用Tasker（危险）</Str>
@@ -158,7 +158,7 @@
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 		<ButtonElement sr="elements5" ve="3">
-			<clickTask>15</clickTask>
+			<clickTask>13</clickTask>
 			<flags>4</flags>
 			<geom>107,1558,551,231,256,853,950,325</geom>
 			<Str sr="arg0" ve="3">按钮4</Str>
@@ -171,7 +171,7 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements6" ve="3">
-			<clickTask>16</clickTask>
+			<clickTask>12</clickTask>
 			<flags>4</flags>
 			<geom>106,1328,550,225,256,853,950,325</geom>
 			<Str sr="arg0" ve="3">按钮41</Str>
@@ -184,7 +184,7 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements7" ve="3">
-			<clickTask>25</clickTask>
+			<clickTask>9</clickTask>
 			<flags>4</flags>
 			<geom>782,1558,525,225,281,553,433,675</geom>
 			<Str sr="arg0" ve="3">按钮61</Str>
@@ -197,7 +197,7 @@
 			<Img sr="arg7" ve="2"/>
 		</ButtonElement>
 		<ButtonElement sr="elements8" ve="3">
-			<clickTask>24</clickTask>
+			<clickTask>8</clickTask>
 			<flags>4</flags>
 			<geom>781,1328,525,225,281,553,433,675</geom>
 			<Str sr="arg0" ve="3">按钮611</Str>
@@ -223,50 +223,36 @@
 			<Int sr="arg8" val="0"/>
 		</TextElement>
 	</Scene>
-	<Task sr="task11">
-		<cdate>1493476677819</cdate>
-		<edate>1493476677819</edate>
-		<id>11</id>
+	<Task sr="task10">
+		<cdate>1493480863745</cdate>
+		<edate>1493480863745</edate>
+		<id>10</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>49</code>
-			<Str sr="arg0" ve="3">弹幕中心</Str>
+			<code>410</code>
+			<Str sr="arg0" ve="3">danmu_send.json</Str>
+			<Str sr="arg1" ve="3">%new_val</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task12">
+	<Task sr="task11">
 		<cdate>1493476911695</cdate>
 		<edate>1493476911695</edate>
-		<id>12</id>
+		<id>11</id>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>139</code>
 		</Action>
 	</Task>
-	<Task sr="task15">
+	<Task sr="task12">
 		<cdate>1493477403291</cdate>
 		<edate>1493477403291</edate>
-		<id>15</id>
+		<id>12</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>116</code>
-			<Str sr="arg0" ve="3">【弹幕服务器地址】:【弹幕服务器端口】</Str>
-			<Str sr="arg1" ve="3">post</Str>
-			<Str sr="arg2" ve="3">text=请注意弹幕礼仪，违者永久封禁</Str>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3">SMS</Str>
-			<Int sr="arg5" val="10"/>
-			<Str sr="arg6" ve="3">application/x-www-form-urlencoded</Str>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-		</Action>
-	</Task>
-	<Task sr="task16">
-		<cdate>1493477403291</cdate>
-		<edate>1493477403291</edate>
-		<id>16</id>
-		<pri>102</pri>
-		<Action sr="act0" ve="7">
-			<code>116</code>
-			<Str sr="arg0" ve="3">【弹幕服务器地址】:【弹幕服务器端口】</Str>
+			<Str sr="arg0" ve="3">dm.kirito.moe:3000</Str>
 			<Str sr="arg1" ve="3">post</Str>
 			<Str sr="arg2" ve="3">text=发送短信至xxx可发送弹幕</Str>
 			<Str sr="arg3" ve="3"/>
@@ -277,45 +263,47 @@
 			<Int sr="arg8" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task24">
-		<cdate>1493479625304</cdate>
-		<edate>1493479625304</edate>
-		<id>24</id>
+	<Task sr="task13">
+		<cdate>1493477403291</cdate>
+		<edate>1493477403291</edate>
+		<id>13</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">DM-SMS</Str>
-			<Int sr="arg1" val="0"/>
+			<code>116</code>
+			<Str sr="arg0" ve="3">dm.kirito.moe:3000</Str>
+			<Str sr="arg1" ve="3">post</Str>
+			<Str sr="arg2" ve="3">text=请注意弹幕礼仪，违者永久封禁</Str>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3">SMS</Str>
+			<Int sr="arg5" val="10"/>
+			<Str sr="arg6" ve="3">application/x-www-form-urlencoded</Str>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task25">
-		<cdate>1493479711909</cdate>
-		<edate>1493479711909</edate>
-		<id>25</id>
+	<Task sr="task5">
+		<cdate>1493476677819</cdate>
+		<edate>1493476677819</edate>
+		<id>5</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>159</code>
-			<Str sr="arg0" ve="3">DM-SMS</Str>
-			<Int sr="arg1" val="1"/>
+			<code>49</code>
+			<Str sr="arg0" ve="3">弹幕中心</Str>
 		</Action>
 	</Task>
-	<Task sr="task31">
-		<cdate>1493480863745</cdate>
-		<edate>1493480863745</edate>
-		<id>31</id>
-		<pri>102</pri>
+	<Task sr="task6">
+		<cdate>1493481772733</cdate>
+		<edate>1493481772733</edate>
+		<id>6</id>
 		<Action sr="act0" ve="7">
-			<code>410</code>
-			<Str sr="arg0" ve="3">danmu_send.json</Str>
-			<Str sr="arg1" ve="3">%new_val</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
+			<code>104</code>
+			<Str sr="arg0" ve="3">http://dm.kirito.moe/manage</Str>
 		</Action>
 	</Task>
-	<Task sr="task32">
+	<Task sr="task7">
 		<cdate>1493481301189</cdate>
 		<edate>1493481301189</edate>
-		<id>32</id>
+		<id>7</id>
 		<pri>102</pri>
 		<Action sr="act0" ve="7">
 			<code>417</code>
@@ -324,24 +312,37 @@
 		</Action>
 		<Action sr="act1" ve="7">
 			<code>116</code>
-			<Str sr="arg0" ve="3">【弹幕服务器地址】:【弹幕服务器端口】</Str>
+			<Str sr="arg0" ve="3">dm.kirito.moe:3000</Str>
 			<Str sr="arg1" ve="3">post</Str>
 			<Str sr="arg2" ve="3">text=%text_temp</Str>
 			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
+			<Str sr="arg4" ve="3">%DEVID-%DEVMAN-%DEVMOD-%DEVPROD</Str>
 			<Int sr="arg5" val="10"/>
 			<Str sr="arg6" ve="3">application/x-www-form-urlencoded</Str>
 			<Str sr="arg7" ve="3"/>
 			<Int sr="arg8" val="0"/>
 		</Action>
 	</Task>
-	<Task sr="task33">
-		<cdate>1493481772733</cdate>
-		<edate>1493481772733</edate>
-		<id>33</id>
+	<Task sr="task8">
+		<cdate>1493479625304</cdate>
+		<edate>1493479625304</edate>
+		<id>8</id>
+		<pri>102</pri>
 		<Action sr="act0" ve="7">
-			<code>104</code>
-			<Str sr="arg0" ve="3">http://【弹幕服务器地址】/manage</Str>
+			<code>159</code>
+			<Str sr="arg0" ve="3">DM-SMS</Str>
+			<Int sr="arg1" val="0"/>
+		</Action>
+	</Task>
+	<Task sr="task9">
+		<cdate>1493479711909</cdate>
+		<edate>1493479711909</edate>
+		<id>9</id>
+		<pri>102</pri>
+		<Action sr="act0" ve="7">
+			<code>159</code>
+			<Str sr="arg0" ve="3">DM-SMS</Str>
+			<Int sr="arg1" val="1"/>
 		</Action>
 	</Task>
 </TaskerData>
